@@ -2,7 +2,7 @@
 
 <!-- ── Badges ─────────────────────────────────────────────────────────────── -->
 <!-- Replace the Streamlit URL below with your deployed app URL after launch  -->
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-name.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://quantedge-ai-n7wlhqzygpzxyx7ade3rfs.streamlit.app)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python&logoColor=white)](https://python.org)
 [![Claude AI](https://img.shields.io/badge/Powered%20by-Claude%20AI-purple?logo=anthropic)](https://anthropic.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
