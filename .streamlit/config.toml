@@ -1,0 +1,29 @@
+# .streamlit/config.toml
+# QuantEdge AI — Streamlit Cloud Configuration
+# Bloomberg-dark professional theme
+
+[theme]
+# ── Colour palette ────────────────────────────────────────────────────────────
+primaryColor        = "#00d4ff"   # Electric blue — buttons, highlights, active tabs
+backgroundColor     = "#0a0e1a"   # Deep navy — main canvas
+secondaryBackgroundColor = "#0d1220"   # Slightly lighter navy — sidebar, cards
+textColor           = "#e0e6f0"   # Near-white — primary text
+font                = "sans serif"
+
+[server]
+# ── Cloud-safe server settings ─────────────────────────────────────────────────
+headless            = true        # Required for Streamlit Cloud / Docker
+enableCORS          = false       # Streamlit Cloud handles CORS at the proxy level
+enableXsrfProtection = true       # Keep XSRF protection enabled
+maxUploadSize       = 10          # MB — generous for any future file upload features
+port                = 8501        # Default; Streamlit Cloud ignores this and uses its own
+
+[browser]
+# ── Browser / client settings ──────────────────────────────────────────────────
+gatherUsageStats    = false       # Opt out of Streamlit telemetry
+serverAddress       = "localhost" # Overridden by Streamlit Cloud automatically
+
+[runner]
+# ── Runtime behaviour ──────────────────────────────────────────────────────────
+magicEnabled        = false       # Disable magic commands — explicit st.* calls only
+fastReruns          = true        # Snappier reruns on widget interaction
